@@ -1,0 +1,30 @@
+# Ignore the Go build output
+/bin/
+/obj/
+
+# Ignore vendor directory (if you're using Go modules)
+/vendor/
+
+# Ignore dependencies and package manager files
+go.sum
+go.mod
+
+# Ignore test files and directories
+*_test.go
+/tests/
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# Ignore Dockerfile itself if it's not needed inside the image
+Dockerfile
+
+# Ignore .git directory
+.git/
+
+# Ignore any backup or temporary files
+*.bak
+*.tmp
+*.log
